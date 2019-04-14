@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-image: url('bg-flag.jpg');
+    background-size: contain;
+}
+h1, h3 {
+    text-align: center;
+}
+h3 { margin: 1em auto; }
+
+.container {
+    width: 100vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em 0;
+    background-color: rgba(255, 255, 255, .8);
+ 
+}
+
+iframe {
+    margin: 1em auto;
+    display: block;
+}
+.map-text {
+    width: 80%;
+    margin: 1em auto;
+    line-height: 1.5em;
+    padding: 1em;
+    background-color: rgba(240, 240, 255, .9);
+}
+ul {
+    list-style-type: none;
+    margin-left: 2em;
+}
